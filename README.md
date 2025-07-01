@@ -4,6 +4,16 @@
 ## 简介
 本集成用于在 Home Assistant 中展示联通话费信息，包括话费余额、剩余流量、剩余通话时间等。通过输入联通账号的 OpenID，定时从联通接口获取最新的话费和使用情况信息。
 
+##配置界面:
+![image](https://github.com/user-attachments/assets/673398b0-8bbe-468c-b9b9-8a03d2bb6c59)
+###默认状态：
+![image](https://github.com/user-attachments/assets/8d8f069e-dd13-457f-9ed7-5681e7106857)
+
+![image](https://github.com/user-attachments/assets/1dc8818b-a206-4d65-9f6d-43eec9b784ac)
+
+###启用独立实体：
+![image](https://github.com/user-attachments/assets/f73931e8-6632-4a68-b07c-5ff4850b4b99)
+
 ## 安装
 ### HACS 安装（推荐）
 1.  确保你已经在 Home Assistant 中安装并配置了 HACS（Home Assistant Community Store）。
