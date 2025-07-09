@@ -1,0 +1,35 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "联通话费信息",
+        "description": "配置联通话费信息集成。需要从联通小程序获取OpenID。",
+        "data": {
+          "name": "名称",
+          "openid": "OpenID",
+          "refresh_interval": "刷新间隔 (分钟)",
+          "create_individual_sensors": "创建独立传感器（语音总量、流量总量、总欠费等）"
+        },
+        "errors": {
+          "openid_required": "OpenID 是必填项"
+        }
+      }
+    },
+    "abort": {
+      "already_configured": "该OpenID已配置。"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "联通话费信息选项",
+        "data": {
+          "name": "名称",
+          "openid": "OpenID",
+          "refresh_interval": "刷新间隔 (分钟)",
+          "create_individual_sensors": "创建独立传感器（语音总量、流量总量、总欠费等）"
+        }
+      }
+    }
+  }
+}
